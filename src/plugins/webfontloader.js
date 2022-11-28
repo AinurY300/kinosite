@@ -9,7 +9,7 @@
 
   webFontLoader.load({
     google: {
-      families: ['Roboto:100,300,400,500,700,900&display=swap'],
+      families: ['Rubik:100,300,400,500,600,700,800,900&display=swap'],
     },
   })
 }

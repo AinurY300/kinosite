@@ -1,11 +1,18 @@
+
 <template>
   <v-app>
+    <TheHeader/>
     <v-main>
-      <HelloWorld />
+      <RouterView/>  
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import TheHeader from './components/TheHeader.vue'
 </script>
+
+<style lang="scss">
+// $body-font-family: 'Rubik';
+// $title-font: 'Rubik';
+</style>
