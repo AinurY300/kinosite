@@ -9,7 +9,11 @@ const router = createRouter({
     },
     {
       path: '/:videotype',
-      component: () => import('../pages/CatalogPage.vue')
+      component: () => import('../pages/CatalogPage.vue'),
+    },
+    {
+      path: '/:videotype/:kinopoisk_id',
+      component: () => import('../pages/FilmPage.vue')
     }
   ],
 })
